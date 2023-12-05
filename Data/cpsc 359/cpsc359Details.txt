@@ -1,0 +1,8 @@
+CPSC 359 - Computing Machinery II
+LEC 1	MW 	15:30 - 16:45	Web Based	Jeffrey Edwin Boyd		
+LEC 2	MW 	15:30 - 16:45	Web Based	Jeffrey Edwin Boyd		
+TUT 1	MW 	13:00 - 13:50
+TUT 2	TR 	11:00 - 11:50
+TUT 3	TR 	12:00 - 12:50
+TUT 5	MW 	12:00 - 12:50
+

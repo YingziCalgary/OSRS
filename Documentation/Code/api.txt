@@ -1,0 +1,21 @@
+
+for front end:
+'http://localhost:8888/api/user/save' for saving user data.
+'http://localhost:8888/api/book' for working with book-related data.
+
+switch ($_SERVER['REQUEST_METHOD']) {
+    case 'POST':
+        $url = $_SERVER['REQUEST_URI'];
+
+        if ($url === '/api/user/save') {
+            // Handle saving user data here.
+        } elseif ($url === '/api/book') {
+            // Handle book-related actions here.
+        } else {
+            // Handle other POST requests or return an error for unknown routes.
+        }
+
+        break;
+
+    // Handle other HTTP methods (GET, PUT, DELETE) as needed.
+}

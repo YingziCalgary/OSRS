@@ -1,0 +1,9 @@
+CPSC 457 - Principles of Operating Systems
+LEC 1	MW 	14:00 - 15:15	Web Based	Pavol Federl		
+TUT 1	WF 	08:00 - 08:50
+TUT 2	TR 	08:00 - 08:50
+TUT 3	TR 	14:00 - 14:50
+TUT 4	TR 	11:00 - 11:50
+TUT 5	TR 	15:00 - 15:50
+TUT 6	TR 	11:00 - 11:50
+

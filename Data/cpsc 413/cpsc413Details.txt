@@ -1,0 +1,8 @@
+CPSC 413 - Design and Analysis of Algorithms I	
+LEC 1	TR 	09:30 - 10:45	Web Based	Jaspreet Kaur		
+TUT 1	MW 	15:00 - 15:50
+TUT 2	TR 	11:00 - 11:50
+TUT 3	TR 	14:00 - 14:50
+TUT 4	MW 	17:00 - 17:50
+TUT 5	MW 	11:00 - 11:50
+

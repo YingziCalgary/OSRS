@@ -1,0 +1,23 @@
+In JavaScript, not all array methods mutate the original array. Some methods modify the array they're 
+called on (mutating), while others create a new array without modifying the original (non-mutating).
+
+Here are a few methods that mutate the original array:
+
+- **`splice()`**: Removes or replaces existing elements and/or adds new elements to the array.
+- **`push()`**: Adds one or more elements to the end of an array.
+- **`pop()`**: Removes the last element from an array.
+- **`shift()`**: Removes the first element from an array.
+- **`unshift()`**: Adds one or more elements to the beginning of an array.
+
+And some methods that do not mutate the original array:
+
+- **`map()`**: Creates a new array by applying a function to each element of an array.
+- **`filter()`**: Creates a new array with elements that pass a test specified by a function.
+- **`slice()`**: Extracts a section of an array and returns a new array.
+- **`concat()`**: Combines two or more arrays and returns a new array.
+- **`join()`**: Creates a new string by concatenating all the elements in an array.
+
+Using non-mutating methods can be beneficial when you want to avoid changing the original array, 
+especially when dealing with state or preserving data integrity. Conversely, mutating methods are useful 
+when you need to modify the array directly. It's essential to choose the appropriate method based on the 
+specific requirements of your code.

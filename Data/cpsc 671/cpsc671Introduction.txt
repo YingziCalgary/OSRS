@@ -1,0 +1,1 @@
+Foundations of database applications and database systems, plus some advanced topics in data management systems will be introduced.

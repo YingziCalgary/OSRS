@@ -1,0 +1,22 @@
+
+fgetcsv(resource $handle, int $length = 0, string $delimiter = ",", string $enclosure = '"', 
+string $escape = "\\")
+
+w is to truncate the file and write from the very beginning.
+a is to append to the end of the file.
+r+ is to both read and modify the file. 
+
+$file = fopen("example.txt", "r+");
+
+if ($file) {
+    // Move the file pointer to the 10th byte position (offset 9 because fseek is 0-based)
+    fseek($file, 9);
+
+    // Write new data at the specified position
+    fwrite($file, "New data");
+
+    // Close the file
+    fclose($file);
+} else {
+    echo "Unable to open file.";
+}

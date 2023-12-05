@@ -1,0 +1,13 @@
+CPSC 355 - Computing Machinery I
+LEC 1	MWF 	14:00 - 14:50	Web Based	Jalal Kawash		
+LEC 2	MWF 	10:00 - 10:50	Web Based	Jalal Kawash		
+TUT 1	TR 	09:00 - 09:50
+TUT 2	MW 	15:00 - 15:50
+TUT 3	MW 	16:00 - 16:50
+TUT 4	MW 	11:00 - 11:50
+TUT 6	TR 	12:00 - 12:50
+TUT 7	TR 	16:00 - 16:50
+TUT 8	TR 	10:00 - 10:50
+TUT 9	MW 	13:00 - 13:50
+TUT 10	MW 	17:00 - 17:50
+

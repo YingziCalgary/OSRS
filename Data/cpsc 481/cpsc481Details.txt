@@ -1,0 +1,6 @@
+CPSC 481 - Human-Computer Interaction I	
+LEC 1	MWF 	10:00 - 10:50	Web Based
+TUT 1	M 	14:00 - 15:50
+TUT 2	R 	14:00 - 15:50
+TUT 3	T 	14:00 - 15:50
+TUT 4	W 	14:00 - 15:50

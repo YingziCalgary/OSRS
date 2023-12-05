@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+:root {
+	--dark: #374151;
+}
+* {
+    box-sizing: border-box;
+  }
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  width:100%;
+}
+
+/****************************Login main*************************/
+
+.studentLogin {
+  background-image: url('./images/tulip.gif');
+  background-repeat: repeat;
+  background-position: center center fixed;
+}
+
+.DBALogin {
+  background-image: url('./images/pinkTulip.jpg');
+  background-repeat: repeat;
+  background-position: center center fixed;
+}
+
+.text-custom {
+  color:#ea1c4f;
+  font-size: 24px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.tip {
+  border: none;
+  background-color: lightgray;
+  color: black
+}
+.text {
+  font-size:24px;
+}
+
+fieldset {
+  border: 2px solid #c4a6a6;
+  padding: 10px 20px;
+}
+
+.profile-identity {
+  margin-left: 80%;
+  margin-top: 1em;
+}
+
+.profile-field {
+  position: relative;
+  width: 50%;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.profile-field legend {
+  color: blue;
+  text-align: center;
+  font-size: 18px;
+}
+
+.login-save {
+  position: absolute;
+  top:70%;
+  left: 90%;
+}
+.personal-save {
+  position: absolute;
+  top:88%;
+  left: 90%;
+}
+.address-save {
+  position: absolute;
+  top: 85%;
+  left: 90%;
+}
+
+legend {
+  color: rgb(24, 9, 241);
+  text-align: center;
+}
+
+.form-check{
+  margin-top: 50px;
+}
+
+.error-message {
+  color:red;
+  font-size: 28px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+/* In your CSS or component styles */
+.table {
+  table-layout: fixed; /* Set the table layout to fixed */
+}
+
+/* Set specific widths for individual columns */
+.table th, .table td {
+  width: 100px; /* Adjust the width as needed */
+  white-space: nowrap; /* Prevent text from wrapping in cells */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Add ellipsis for overflow text */
+  background-color: #f1dea6;
+}
+.table td {
+  color: red;
+}
+.DBA_card {
+  margin: 20px auto;
+}
+
+.instruction-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/******************************for DBA View Student View Course**************************************/
+
+.view-student, .view-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.add_student_container {
+  width: 100vw;
+  height: 100vh;
+}
+.sex, .firstyear {
+  display: flex;
+  flex-direction: row;
+}
+
+.lec-table {
+  width: 97%;
+  margin: 0 20px;
+}
+
+.lec-table tr td, .lec-table tr th {
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* For the first column in .lec-table */
+.lec-table tr td:nth-child(1),
+.lec-table th:nth-child(1), .lec-table tr td:nth-child(9),
+.lec-table th:nth-child(9)  {
+  width: 55px;
+}
+
+.lec-table tr td:nth-child(2),
+.lec-table th:nth-child(2) {
+  display: none;
+}
+
+.lec-table tr td:nth-child(3),
+.lec-table th:nth-child(3) {
+  width: 130px;
+  white-space: wrap;
+}
+
+.lec-table tr td:nth-child(4),
+.lec-table th:nth-child(4){
+  width: 80px;
+}
+
+.lec-table tr td:nth-child(5),
+.lec-table th:nth-child(5), .lec-table tr td:nth-child(6), .lec-table th:nth-child(6){
+  width: 70px;
+}
+
+.lec-table tr td:nth-child(7),
+.lec-table th:nth-child(7), .lec-table tr td:nth-child(8), .lec-table th:nth-child(8){
+  width: 120px;
+}
+
+.lec-table tr td:nth-child(10),
+.lec-table th:nth-child(10),
+.lec-table tr td:nth-child(11),
+.lec-table th:nth-child(11),
+.lec-table tr td:nth-child(12),
+.lec-table th:nth-child(12) {
+  width: 40px;
+}
+
+/* For the first column in .courses-table */
+.courses-table tr td:first-child,
+.courses-table th:first-child {
+  width: 50px;
+}
+
+.courses-table tr td:nth-child(2),
+.courses-table tr th:nth-child(2) {
+  width: 80px;
+}
+
+.courses-table tr td:nth-child(3),
+.courses-table tr th:nth-child(3) {
+  width: 280px;
+}
+
+/* For the last column in .courses-table */
+.courses-table tr td:last-child,
+.courses-table th:last-child {
+  width: 50px;
+}
+
+.scrollable-cell {
+  width: 400px; /* Set a fixed width for the cell container */
+  overflow-x: auto; /* Enable horizontal scrolling for the cell container */
+}
+
+.instructions {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.addNewBtn {
+  background-color: #00aeff;
+}
+.saveBtn {
+  background-color: hwb(59 0% 0%);
+}
+.deleteBtn {
+  background-color: hsl(10, 88%, 50%);
+}
+
+.addNewBtn, .saveBtn, .deleteBtn {
+  border: none;
+  color: black;  
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.my-custom-button:hover {
+  cursor: pointer;
+}
+
+.makeTable {
+  position: relative;
+  float: right;
+  left: -200px;
+  top: 80px;
+}
+
+/**********************************Student Course Registration************************************/
+.course-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 28px;
+  color: brown;
+}
+
+.level-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 50px;
+  font-size: 28px;
+  color: rgb(47, 18, 235);
+}
+
+.level-btn {
+  margin: 10px;
+}
+
+.level-title-display {
+  list-style-type: none;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.level-display {
+  color: rgb(179, 0, 255);
+  font-size: 18px;
+}
+
+.level-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* For the first column in .registration-table */
+.registration-table tr td:first-child,
+.registration-table th:first-child {
+  width: 50px;
+}
+
+.registration-table tr td:nth-child(2),
+.registration-table tr th:nth-child(2) {
+  width: 70px;
+}
+
+/* For the last column in .courses-table */
+.registration-table tr td:last-child,
+.registration-table th:last-child {
+  width: 50px;
+}
+
+.registration-table {
+  width: 100%;
+  text-align: center;
+}
+
+.DBA-registration-table {
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+.registration-add, .registration-save, .registration-delete {
+  float: right;
+}
+
+/* For the first column in .DBA-registration-table */
+
+.DBA-registration-table tr td:first-child,
+.DBA-registration-table th:first-child, 
+.DBA-registration-table tr td:nth-child(3), /*The third column is CourseID column that is hidden from the view*/
+.DBA-registration-table th:nth-child(3) {
+  width: 50px;
+}
+
+.DBA-registration-table tr td:nth-child(2),
+.DBA-registration-table th:nth-child(2) {
+  width: 60px;
+}
+
+.DBA-registration-table tr td:nth-child(5),
+.DBA-registration-table tr td:nth-child(5) 
+.DBA-registration-table th:nth-child(6), 
+.DBA-registration-table tr td:nth-child(6) {
+  width: 60px;
+}
+
+.DBA-registration-table tr td:nth-child(4),
+.DBA-registration-table tr td:nth-child(4),
+.DBA-registration-table th:nth-child(9), 
+.DBA-registration-table tr td:nth-child(9) {
+  width: 170px;
+  white-space: wrap;
+}
+
+/* For the seventh column in .DBA-registration-table */
+.DBA-registration-table tr td:nth-child(8),
+.DBA-registration-table th:nth-child(8) {
+  width: 60px;
+}
+
+/* For the last column in .DBA-registration-table */
+.DBA-registration-table tr td:last-child,
+.DBA-registration-table th:last-child {
+  width: 40px;
+}
+
+.registration-display-table tr td:nth-child(3),
+.registration-display-table th:nth-child(3) {
+  width: 150px;
+  white-space: wrap;
+}
+
+.registration-display-table tr td:first-child,
+.registration-display-table th:first-child {
+  display: none;
+}
+
+.registration-display-table tr td:nth-child(4),
+.registration-display-table th:nth-child(4), 
+.registration-display-table tr td:nth-child(5),
+.registration-display-table th:nth-child(5){
+  width: 80px;
+}
+
+.registration-display-table tr td:nth-child(11),
+.registration-display-table th:nth-child(11) {
+  white-space: wrap;
+}
+
+.registration-display-table tr td:nth-child(9),
+.registration-display-table th:nth-child(9) {
+  width: 130px;
+}
+
+.registration-display-table tr td:nth-child(8),
+.registration-display-table th:nth-child(8) {
+  width: 200px;
+}
+
+.registration-display-table tr td:last-child,
+.registration-display-table th:last-child {
+  width: 50px;
+}
+
+
+.detail-instruction-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  
+}
+
+/**************************payment****************************************************************/
+.pay-identity p {
+  margin: 0px;
+}
+
+.pay-display-table tr td:nth-child(2),
+.pay-display-table th:nth-child(2) {
+  width: 130px;
+  white-space: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.payment-method-container {
+  clear: both;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  color: blue;
+}
+
+.payment-header {
+  margin-bottom: 100px;
+}

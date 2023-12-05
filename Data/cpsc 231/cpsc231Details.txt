@@ -1,0 +1,15 @@
+CPSC 231 - Introduction to Computer Science for Computer Science Majors I
+LEC 1	TR 	09:30 - 10:45	Web Based	Sohaib Bajwa		
+LEC 2	TR 	15:30 - 16:45	Web Based	Sohaib Bajwa		
+TUT 1	MW 	10:00 - 10:50
+TUT 2	MW 	17:00 - 17:50
+TUT 3	TR 	12:00 - 12:50
+TUT 4	TR 	16:00 - 16:50
+TUT 5	TR 	14:00 - 14:50
+TUT 6	MW 	12:00 - 12:50
+TUT 7	MW 	16:00 - 16:50
+TUT 8	TR 	11:00 - 11:50
+TUT 9	TR 	09:00 - 09:50
+TUT 10	MW 	13:00 - 13:50
+
+

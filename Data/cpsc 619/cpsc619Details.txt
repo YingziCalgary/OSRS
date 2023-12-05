@@ -1,0 +1,2 @@
+CPSC 619 - Quantum Computation	
+LEC 1	TR 	14:00 - 15:15	Web Based	Peter Christian Hoyer

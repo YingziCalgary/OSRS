@@ -1,0 +1,5 @@
+CPSC 502.01A - Research Project in Computer Science
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA
+LAB 2	TBA
+LAB 3	TBA

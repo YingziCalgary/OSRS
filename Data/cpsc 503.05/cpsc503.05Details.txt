@@ -1,0 +1,3 @@
+CPSC 503.05 - Project in Scientific Computation
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA

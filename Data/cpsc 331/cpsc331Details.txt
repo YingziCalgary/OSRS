@@ -1,0 +1,11 @@
+CPSC 331 - Data Structures, Algorithms, and Their Analysis
+LEC 1	TR 	09:30 - 10:45	   Web Based	Wayne Michael Eberly		
+LEC 2	TR 	14:00 - 15:15	   Web Based	Wayne Michael Eberly		
+TUT 1	MW 	09:00 - 09:50
+TUT 2	MW 	12:00 - 12:50
+TUT 3	TR 	17:00 - 17:50
+TUT 4	MW 	15:00 - 15:50
+TUT 6	TR 	12:00 - 12:50
+TUT 7	TR 	13:00 - 13:50
+TUT 8	MW 	14:00 - 14:50
+

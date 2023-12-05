@@ -1,0 +1,22 @@
+insert  into tmpTable
+        (StudentID)
+select  StudentID
+from    student yt
+where   exists
+        (
+        select  *
+        from    student yt2
+        where   yt2.LastName = yt.LastName
+                and yt2.MiddleName = yt.MiddleName
+                and yt2.FirstName = yt.FirstName
+                and yt2.StudentID > yt.StudentID
+        );
+
+delete  
+from    student
+where   StudentId in (select StudentID from tmpTable);
+
+update student 
+set StudentID = StudentID/2;
+
+

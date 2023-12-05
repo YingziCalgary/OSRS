@@ -1,0 +1,9 @@
+Here's how the props correspond to screen sizes:
+
+xs: Extra small screens (less than 576px wide)
+sm: Small screens (576px and wider)
+md: Medium screens (768px and wider)
+lg: Large screens (992px and wider)
+xl: Extra large screens (1200px and wider)
+
+For example, xs={6}, you're specifying that the column should take up half of the available width on extra small screens (less than 576px wide). 

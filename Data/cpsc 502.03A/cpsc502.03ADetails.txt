@@ -1,0 +1,4 @@
+CPSC 502.03A - Research Project in Computer Graphics
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA
+

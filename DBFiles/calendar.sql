@@ -1,0 +1,10 @@
+insert IGNORE into calendar (Date, Notes) values('2005-04-29', "Birthday for Stan");
+insert IGNORE into calendar (Date, Notes) values('1999-08-27', "Birthday for Sophy");
+insert IGNORE into calendar (Date, Notes) values('1967-09-22', "Birthday for Ying");
+insert IGNORE into calendar (Date, Notes) values('1957-12-24', "Birthday for Joe");
+insert IGNORE into calendar (Date, Notes) values('2021-01-01', "New Year's day");
+insert IGNORE into calendar (Date, Notes) values('2021-04-02', "Good Friday");
+insert IGNORE into calendar (Date, Notes) values('2021-07-01', "Canada Day");
+insert IGNORE into calendar (Date, Notes) values('2021-09-06', "Labour Day");
+insert IGNORE into calendar (Date, Notes) values('2021-10-11', "Thanksgiving Day");
+insert IGNORE into calendar (Date, Notes) values('2021-12-25', "Christmas Day");

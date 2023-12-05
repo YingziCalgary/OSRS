@@ -1,0 +1,57 @@
+In the provided code, `mapStateToProps` is a function used with the `connect` function from the `react-redux` library to map the Redux state to the props of a React component. Let's break down the function and its parameters:
+
+```javascript
+const mapStateToProps = (state, ownProps) => {
+    let id = ownProps.match.params.post_id;
+    return {
+        post: state.posts.find(post => post.id == id)
+    }
+}
+```
+
+1. `state`: This parameter represents the current Redux state. It's typically the entire state of your application as defined in your Redux store. You can access different pieces of state from the store through this parameter.
+
+2. `ownProps`: This parameter represents the props that are directly passed to the component that you are connecting with Redux. These are the props that were already present on the component before you used `connect`. It's often used when you need to access props passed to the component, such as React Router's `match` object, which contains parameters from the URL.
+
+   In your code, `ownProps.match.params.post_id` is used to extract the `post_id` parameter from the URL. It's part of the React Router props and is used to identify which post to retrieve from the Redux state.
+
+3. `post`: This is an object that you are returning from `mapStateToProps`. It will be added as a prop to the connected component. In this case, you're looking up a post from the Redux state based on the `post_id` obtained from the URL parameters.
+
+So, in summary, `mapStateToProps` is a function that takes the Redux state and the component's own props, extracts the `post_id` from the URL parameters, and maps the corresponding post from the Redux state to the `post` prop that will be available in your component. This allows you to use the Redux state in your React component by accessing it through `this.props.post`.
+
+ownProps.match.params.post_id is accessing the post_id parameter from the URL. The match prop is automatically provided by React Router to components that are rendered by a Route and it contains information about the current URL, including the parameters. In this case, post_id would be a parameter defined in your route configuration.
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+React Router provides certain objects like match, location, and history as props to components that are rendered within a Route. This allows your components to access and use information about the current route and URL parameters. And you render the PostDetails component when the URL matches /posts/:post_id, React Router will pass the match object with information about the matched route, including URL parameters, as a prop to the PostDetails component. You can then access the URL parameters using this.props.match.params.post_id or by destructuring it as const { match } = this.props and then using match.params.post_id.
+const mapStateToProps = (state, ownProps) => {
+  let id = ownProps.match.params.post_id;
+  // You can use `ownProps` or any other variable name here.
+  // The key point is that you're accessing the props originally passed to the component.
+  // For example, you could write: let id = books.match.params.post_id;
+  return {
+    post: state.posts.find(post => post.id === id),
+  };
+};
+
+
+const mapStateToProps = (state, ownProps) => {
+  let id = ownProps.match.params.post_id;
+  return {
+    post: state.posts.find(post => post.id === id),
+  };
+};
+
+In this code, mapStateToProps maps the Redux state to the component's props. The result is that the post property becomes available in the component's props. You can then access it as props.post within the component, like this:
+
+const PostDetails = (props) => {
+  const { post } = props;
+
+  return (
+    <div>
+      <h2>Post ID: {post.id}</h2>
+      <p>Title: {post.title}</p>
+      <p>Content: {post.content}</p>
+    </div>
+  );
+};

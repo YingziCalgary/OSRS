@@ -1,0 +1,21 @@
+$mysqli = new mysqli("hostname", "username", "password", "database_name");
+
+if ($mysqli->connect_error) {
+    die("Connection failed: " . $mysqli->connect_error);
+}
+
+$query = "
+    LOAD DATA INFILE '/path/to/your/file.csv'
+    INTO TABLE your_table
+    FIELDS TERMINATED BY ','
+    LINES TERMINATED BY '\n'
+    IGNORE 1 LINES
+";
+
+if ($mysqli->query($query) === TRUE) {
+    echo "Data loaded successfully.";
+} else {
+    echo "Error loading data: " . $mysqli->error;
+}
+
+$mysqli->close();

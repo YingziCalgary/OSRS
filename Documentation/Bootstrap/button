@@ -1,0 +1,40 @@
+import React, { useState } from 'react';
+import Button from 'react-bootstrap/Button';
+
+function EventHandlingExample() {
+  // Create a state variable to track the button click count
+  const [clickCount, setClickCount] = useState(0);
+
+  // Event handler function for the button click
+  const handleButtonClick = () => {
+    // Increment the click count when the button is clicked
+    setClickCount(clickCount + 1);
+  };
+
+  return (
+    <div>
+      <h2>Event Handling Example</h2>
+      <p>Button Click Count: {clickCount}</p>
+      {/* Use the react-bootstrap Button component */}
+      <Button variant="primary" onClick={handleButtonClick}>
+        Click Me
+      </Button>
+    </div>
+  );
+}
+
+export default EventHandlingExample;
+
+import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+function MyComponent() {
+  // Bootstrap styling will apply to elements within this component
+  return (
+    <div>
+      <button className="btn btn-primary">Bootstrap Button</button>
+      {/* Other Bootstrap components */}
+    </div>
+  );
+}
+

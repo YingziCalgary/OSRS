@@ -1,0 +1,4 @@
+CPSC 584 - Human-Robot Interaction	
+LEC 1	MWF 	12:00 - 12:50	Web Based	Tim Au Yeung		
+TUT 1	W 	10:00 - 11:50	MS 139	Kurtis Danyluk		
+TUT 2	M 	14:00 - 15:50	MS 139

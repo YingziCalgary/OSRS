@@ -1,0 +1,48 @@
+const [myArray, setMyArray] = useState([]);
+
+// To update the array and trigger a re-render:
+const updateArray = () => {
+  const newArray = [...myArray, "New Item"];
+  setMyArray(newArray);
+};
+
+
+const [myArray, setMyArray] = useState([]);
+
+// To update the array immutably and trigger a re-render:
+const updateArray = () => {
+  setMyArray((prevArray) => [...prevArray, "New Item"]);
+};
+
+/**
+ Both of the code snippets you mentioned achieve the same result, which is adding a new item to the
+  array. Let me clarify:
+
+1. `const newArray = [...myArray, "New Item"];`: In this line, a new array is created by spreading 
+the elements of `myArray` into a new array and then adding `"New Item"` to the end. This creates a 
+new array with the same content as `myArray` plus the new item.
+
+2. `setMyArray((prevArray) => [...prevArray, "New Item"]);`: This code is updating the state `myArray` 
+using the functional update form of `setState`. It achieves the same result as the first code snippet 
+by creating a new array based on the previous state (referred to as `prevArray`) and adding `"New Item"` 
+to the end.
+
+Both approaches are considered best practices for updating an array in an immutable way in React. They 
+create a new array with the updated content, ensuring that you are not mutating the original array. 
+The second approach using the functional update form is especially useful when dealing with asynchronous 
+updates or when the state change depends on the previous state.
+
+When you use the state hook's setState function with a function argument, as in setMyArray((prevArray) 
+=> [...prevArray, "New Item"]);, React guarantees that it will provide you with the most up-to-date 
+previous state (prevArray), even in asynchronous scenarios. This can help prevent race conditions 
+and unexpected behavior in your application.
+
+The functional update pattern ensures immutability, so you won't accidentally mutate the previous state.
+
+
+
+The recreation of the addTodo function in the parent component (App) still affects the child component
+ (Todos) because React treats it as a new function reference on each render of the parent component. 
+ This can lead to unnecessary re-renders of the child component, even if the content of the todos prop 
+ hasn't changed.
+ */

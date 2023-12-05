@@ -1,0 +1,11 @@
+var xhr = new XMLHttpRequest();
+xhr.open("GET", "example.php", true);
+xhr.setRequestHeader("Accept", "application/json"); // Specify the expected response format
+xhr.onreadystatechange = function() {
+  if (xhr.readyState === 4 && xhr.status === 200) {
+    // Parse the JSON response into a JavaScript object
+    var jsonResponse = JSON.parse(xhr.responseText);
+    // Use the data in your JavaScript code
+  }
+};
+xhr.send();

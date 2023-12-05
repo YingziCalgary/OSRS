@@ -1,0 +1,3 @@
+CPSC 502.08A - Research Project in Networks and Distributed Computing
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA

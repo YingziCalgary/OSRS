@@ -1,0 +1,5 @@
+<p class="text-xs">Extra Small Text</p>
+<p class="text-sm">Small Text</p>
+<p class="text-md">Medium Text (Default)</p>
+<p class="text-lg">Large Text</p>
+<p class="text-xl">Extra Large Text</p>

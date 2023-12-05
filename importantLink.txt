@@ -1,0 +1,9 @@
+1) https://react-bootstrap.github.io/docs/getting-started/introduction
+
+2) https://www.youtube.com/watch?v=XjjfpNsChhI&list=PLCakfctNSHkFDTFczqhXNv-nYMHvLMT1H
+
+3) https://developer.chrome.com/docs/devtools/network/reference/?utm_source=devtools#timing-explanation
+
+4) http://localhost/server-status
+
+5) ipconfig in cmd and you can get your IP address

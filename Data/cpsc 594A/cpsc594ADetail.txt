@@ -1,0 +1,4 @@
+CPSC 594A - Software Engineering Project	
+LEC 1	M 	16:00 - 16:50	Web Based	Guenther Ruhe		
+LAB 1	W 	17:00 - 21:50
+

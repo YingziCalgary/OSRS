@@ -1,0 +1,204 @@
+{
+	"folders": [
+		{
+			"name": "hangman-react",
+			"path": "../../../../Users/Yingzi/hangman-react"
+		},
+		{
+			"name": "shopping-car-react",
+			"path": "../../../../Users/Yingzi/shopping-car-react"
+		},
+		{
+			"name": "task-tracker-react",
+			"path": "../../../../Users/Yingzi/task-tracker-react"
+		},
+		{
+			"name": "UniversityOfCalgary",
+			"path": "../../../../Users/Yingzi/Desktop/UniversityOfCalgary"
+		},
+		{
+			"name": "yingzi-react",
+			"path": "../../../../Users/Yingzi/yingzi-react"
+		},
+		{
+			"name": "react1-app",
+			"path": "../../../../Users/Yingzi/react1-app"
+		},
+		{
+			"name": "mygame-app",
+			"path": "../../../../Users/Yingzi/mygame-app"
+		},
+		{
+			"name": "react-examine",
+			"path": "../../../../Users/Yingzi/react-examine"
+		},
+		{
+			"name": "code",
+			"path": "../../../../Users/Yingzi/code"
+		},
+		{
+			"name": "banana-react",
+			"path": "../../../../Users/Yingzi/banana-react"
+		},
+		{
+			"name": "task-tracking-react",
+			"path": "../../../../Users/Yingzi/task-tracking-react"
+		},
+		{
+			"name": "LearnJavascript",
+			"path": "../../../../Users/Yingzi/Desktop/LearnJavascript"
+		},
+		{
+			"name": "ict580-react",
+			"path": "../../../../Users/Yingzi/ict580-react"
+		},
+		{
+			"name": "shopping-react",
+			"path": "../../../../Users/Yingzi/shopping-react"
+		},
+		{
+			"name": "router-react",
+			"path": "../../../../Users/Yingzi/router-react"
+		},
+		{
+			"name": "ChatGPT",
+			"path": "../../../../Users/Yingzi/Desktop/ChatGPT"
+		},
+		{
+			"name": "React Hooks",
+			"path": "../../../../Users/Yingzi/Desktop/React Hooks"
+		},
+		{
+			"path": "../../../../Users/Yingzi/banana-apple-react"
+		},
+		{
+			"path": "../../../../Users/Yingzi/course-test-react"
+		},
+		{
+			"path": "../../../../Users/Yingzi/fuck-react"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/JavascriptCourse"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/React/banana-react"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/React/UniversityOfCalgary/Assignments/Assignment3_ICT582_submission/ass3"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/React/UniversityOfCalgary/Assignments/Assignment2_ICT581_submission/ass2"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/JavascriptCssHTML"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/JSBookCode"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Bootstrap 4 Quick Start - Complete v421"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Javascript3Books"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/TaskToDo"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/bookmarks/TaskToDoYing"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/D3"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/JQueryInAction"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/task-tracker-Angular"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/TestAngular"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/TypeScript"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/NewJava/LeeCode"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/express"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/JavaScriptPHP"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/ExpressT"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/3Courses"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/3Courses/ICT580/html-and-css-book-code (1)"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Bootstrap"
+		},
+		{
+			"path": "../../myTestApp"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/ChatSocket"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/M1"
+		},
+		{
+			"path": "../../phpbook6"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Passport"
+		},
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../Database"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Website"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/React/UniversityOfCalgary/Assignments"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Redux"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/React-redux app"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Grid"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Testing"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/my-react-app"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/Web Development"
+		},
+		{
+			"path": "../../../../Users/Yingzi/Desktop/YouTubeMusic"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "3Courses",
+		"liveServer.settings.port": 3005,
+		"jest.disabledWorkspaceFolders": ["Hangman", "my-app"],
+	  },
+	  "launch": {
+		"version": "0.2.0",
+		"configurations": []
+	  }
+	}

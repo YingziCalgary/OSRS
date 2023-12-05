@@ -1,0 +1,7 @@
+CPSC 441 - Computer Networks
+LEC 1	MWF 	10:00 - 10:50	Web Based	Sina Keshvadi		
+TUT 1	MW 	17:00 - 17:50
+TUT 2	MW 	09:00 - 09:50
+TUT 3	TR 	12:00 - 12:50
+TUT 4	TR 	16:00 - 16:50
+TUT 5	MW 	12:00 - 12:50

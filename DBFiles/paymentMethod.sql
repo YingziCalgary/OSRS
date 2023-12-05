@@ -1,0 +1,21 @@
+insert IGNORE into paymentmethod (PaymentMethodName) values("2Checkout");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Amazon Pay");
+insert IGNORE into paymentmethod (PaymentMethodName) values("American Express");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Apple Pay");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Cash");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Charge Card");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Checks");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Cryptocurrencies");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Debit Card");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Discover");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Dwolla");
+insert IGNORE into paymentmethod (PaymentMethodName) values("E-Wallet");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Gift Card");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Google Pay");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Master Card");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Master Pass");
+insert IGNORE into paymentmethod (PaymentMethodName) values("PayPal");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Pre-paid Card");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Stripe");
+insert IGNORE into paymentmethod (PaymentMethodName) values("Visa Card");
+

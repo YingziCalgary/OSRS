@@ -1,0 +1,10 @@
+const calculation = useMemo(() => expensiveCalculation(count), [count]);
+
+//useMemo for Result Caching: useMemo is primarily used for memoizing the result of a computation
+
+const memoizedFunction = useCallback(() => { /* function body */ }, [dependency]);
+
+//useCallback for Function Memoization: useCallback is used when you want to memoize a function 
+//reference itself. It's useful when you need to ensure that the function reference remains consistent 
+//across renders.
+

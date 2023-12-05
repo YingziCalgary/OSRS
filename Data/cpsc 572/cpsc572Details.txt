@@ -1,0 +1,2 @@
+CPSC 572 - Fundamentals of Social Network Analysis and Data Mining	
+LEC 1	TR 	09:30 - 10:45	Web Based	Jon George Rokne

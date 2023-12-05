@@ -1,0 +1,44 @@
+// Create a new FormData object from a form element
+const formData = new FormData(document.getElementById('myForm'));
+
+// Create an empty JavaScript object to store the form data in JSON format
+const formDataJSON = {};
+
+// Iterate over the FormData entries and add them to the object
+for (const [key, value] of formData.entries()) {
+  formDataJSON[key] = value;
+}
+
+// Convert the object to a JSON string
+const formDataJSONString = JSON.stringify(formDataJSON);
+
+console.log(formDataJSONString);
+
+
+<form id="myForm">
+  <!-- Form fields go here -->
+  <input type="text" name="username" placeholder="Username">
+  <input type="password" name="password" placeholder="Password">
+  <button type="submit">Submit</button>
+</form>
+
+<script>
+  document.getElementById('myForm').addEventListener('submit', function (e) {
+    e.preventDefault(); // Prevent the default form submission
+
+    // Collect form data
+    const formData = new FormData(this);
+
+    // Send the form data to the server using Fetch
+    fetch('/your-server-endpoint', {
+      method: 'POST', // Use POST method to send data
+      body: formData, // Include form data in the request body
+    })
+      .then(response => {
+        // Handle the server's response here
+      })
+      .catch(error => {
+        // Handle errors here
+      });
+  });
+</script>

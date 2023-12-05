@@ -1,0 +1,7 @@
+CPSC 471 - Data Base Management Systems
+LEC 1	TBA	Reda Alhajj 
+TUT 1	TR 	08:00 - 08:50
+TUT 2	TR 	17:00 - 17:50
+TUT 3	MW 	15:00 - 15:50
+TUT 4	MW 	13:00 - 13:50
+TUT 5	MW 	11:00 - 11:50

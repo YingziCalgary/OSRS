@@ -1,0 +1,9 @@
+"\n": Represents a newline character.
+"\t": Represents a tab character.
+"\r": Represents a carriage return character.
+"\"": Represents a double quotation mark within a double-quoted string.
+"\\": Represents a literal backslash character within a double-quoted string.
+When you use double quotation marks (") to define a string in PHP, escape sequences are interpreted, 
+meaning that "\n" is treated as a newline character, "\t" as a tab character, and so on. 
+Single quotation marks (') treat the content as a literal string, so '\n' would be treated as the 
+characters \ and n and not as a newline character.

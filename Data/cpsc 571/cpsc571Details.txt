@@ -1,0 +1,2 @@
+CPSC 571 - Design and Implementation of Database Systems	
+LEC 1	TR 	12:30 - 13:45	Web Based	Reda Alhajj 		

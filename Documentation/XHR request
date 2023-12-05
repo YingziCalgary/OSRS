@@ -1,0 +1,23 @@
+The `readyState` values (0, 1, 2, 3, 4) in the context of XMLHttpRequest (XHR) represent different states in the lifecycle of an HTTP request. Here's what each value means:
+
+1. `0` (UNSENT): The XHR object has been created, but the `open()` method has not been called yet. This is the initial state.
+
+2. `1` (OPENED): The `open()` method has been called, indicating that the request is ready to be configured with the HTTP method, URL, and other request headers.
+
+3. `2` (HEADERS_RECEIVED): The `send()` method has been called, and the request has been sent to the server. At this stage, the XHR object has received response headers from the server.
+
+4. `3` (LOADING): The response body is being downloaded incrementally. This state can be used to monitor the progress of the response download.
+
+5. `4` (DONE): The request is complete, and both the response headers and body are available for use. The response is fully received, and you can access the response data using the XHR object.
+
+Typically, you'll be most interested in the `4` (DONE) state, as it indicates that the request is complete, and you can access the response data. The other states provide intermediate information about the progress of the request.
+
+Here's a common sequence of events:
+
+- Create an XHR object.
+- Call `open()` to configure the request.
+- Call `send()` to send the request to the server.
+- Monitor the `readyState` for value `4` to indicate the completion of the request.
+- Access the response data when `readyState` is `4`.
+
+This allows you to work with the response from the server once it's fully received and available.

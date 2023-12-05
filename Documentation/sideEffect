@@ -1,0 +1,43 @@
+Certainly! Here are some examples of things that are typically not considered side effects for the `useEffect` hook in React:
+
+1. **State Updates**: Updating state using `useState` or any other state management hook is not considered a side effect. It's a fundamental part of how React components work and is expected behavior within the component's render cycle.
+
+   ```javascript
+   const [count, setCount] = useState(0); // Not a side effect
+   ```
+
+2. **Rendering JSX**: Rendering JSX components within the component's `return` statement is not a side effect. This is the primary purpose of a React component.
+
+   ```javascript
+   return <div>Hello, World!</div>; // Not a side effect
+   ```
+
+3. **Function Calls**: Calling regular JavaScript functions or methods that don't involve asynchronous or side-effectful operations is not considered a side effect.
+
+   ```javascript
+   const result = calculateSum(2, 3); // Not a side effect
+   ```
+
+4. **Conditional Logic**: Conditional logic and control flow within your component based on props or state is not a side effect. It's a normal part of component rendering.
+
+   ```javascript
+   if (isVisible) {
+     return <div>Visible Content</div>; // Not a side effect
+   } else {
+     return null; // Not a side effect
+   }
+   ```
+
+5. **Local Variable Declarations**: Declaring and initializing local variables within your component function is not considered a side effect.
+
+   ```javascript
+   const message = "Hello, World!"; // Not a side effect
+   ```
+
+6. **React Memoization**: Using the `React.memo` higher-order component to optimize the rendering of a component by preventing unnecessary re-renders is not a side effect.
+
+   ```javascript
+   const MemoizedComponent = React.memo(MyComponent); // Not a side effect
+   ```
+
+These examples represent operations that are an inherent part of React component rendering and do not involve side effects in the sense that they don't interact with the external world or perform asynchronous tasks. `useEffect` is typically reserved for managing side effects, such as data fetching, DOM manipulation, and interactions with external APIs.

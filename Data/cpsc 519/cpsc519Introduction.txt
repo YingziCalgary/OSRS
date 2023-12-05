@@ -1,0 +1,1 @@
+Introduction to quantum computing. Quantum algorithms, quantum search, quantum fourier transforms, quantum error correcting codes, quantum cryptography, nonlocality and quantum communication complexity, and quantum computational complexity.

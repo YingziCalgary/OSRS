@@ -1,0 +1,3 @@
+CPSC 502.04A - Research Project in Information Security
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA

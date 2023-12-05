@@ -1,0 +1,5 @@
+CPSC 405 - Software Entrepreneurship
+LEC 1	MTWRF 	09:00 - 11:50	Web Based	Mea Wang
+LEC 2	R 	14:00 - 15:15		
+TUT 1	T 	14:00 - 15:15
+

@@ -1,0 +1,4 @@
+CPSC 502.02A - Research Project in Theoretical Computer Science
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA
+

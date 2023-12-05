@@ -1,0 +1,3 @@
+CPSC 503.04 - Project in InformationSecurity
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA

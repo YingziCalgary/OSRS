@@ -1,0 +1,8 @@
+CPSC 313 - Introduction to Computability
+LEC 1	TBA	Joel Reardon		
+TUT 1	TBA
+TUT 2	TBA
+TUT 3	TBA
+TUT 4	TBA
+TUT 5	TBA
+

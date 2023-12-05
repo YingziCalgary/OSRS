@@ -1,0 +1,7 @@
+CPSC 453 - Introduction to Computer Graphics
+LEC 1	TBA	Faramarz Samavati		
+TUT 1	TBA
+TUT 2	TBA
+TUT 3	TBA
+TUT 4	TBA
+

@@ -1,0 +1,53 @@
+Certainly, there are multiple ways to establish a MySQLi database connection in PHP, which can be a bit confusing. Here's a summary of common approaches:
+
+1. **Using Object-Oriented MySQLi:**
+
+   - **Creating a New MySQLi Object:**
+     ```php
+     $mysqli = new mysqli("localhost", "username", "password", "database_name");
+     if ($mysqli->connect_error) {
+         die("Connection failed: " . $mysqli->connect_error);
+     }
+     ```
+
+   - **Using an Existing MySQLi Object:**
+     If you already have a MySQLi object created, you can use it for database operations without re-establishing the connection.
+     ```php
+     $mysqli->select_db("database_name");
+     ```
+
+2. **Using Procedural MySQLi:**
+
+   - **mysqli_connect:**
+     ```php
+     $conn = mysqli_connect("localhost", "username", "password", "database_name");
+     if (!$conn) {
+         die("Connection failed: " . mysqli_connect_error());
+     }
+     ```
+
+   - **mysqli_select_db:**
+     After establishing the connection, you can select the database using `mysqli_select_db`.
+     ```php
+     mysqli_select_db($conn, "database_name");
+     ```
+
+3. **Using MySQLi and Prepared Statements:**
+   If you plan to use prepared statements for better security, you'll create the connection as in the first Object-Oriented example, then use the connection object for prepared statements.
+
+   ```php
+   $mysqli = new mysqli("localhost", "username", "password", "database_name");
+   if ($mysqli->connect_error) {
+       die("Connection failed: " . $mysqli->connect_error);
+   }
+
+   // Use $mysqli for prepared statements
+   ```
+
+In summary, here are some key points to remember:
+
+- Use the Object-Oriented or Procedural style based on your coding preference.
+- Creating a new MySQLi object or using `mysqli_connect` both establish a connection to the database.
+- The database name can be specified during connection or later using `select_db()`.
+
+Choose the style that you find most readable and maintainable for your project, and stick to it for consistency.

@@ -1,0 +1,3 @@
+CPSC 502.06A - Project in Software Engineering
+LEC 1	TBA	Ehud Sharlin		
+LAB 1	TBA

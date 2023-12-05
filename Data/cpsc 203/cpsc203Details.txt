@@ -1,0 +1,19 @@
+CPSC 203 - Introduction to Problem Solving using Application Software
+LEC 1	MWF	13:30 - 14:50	Web Based	James Tam		
+LEC 75	TBA	RDC	TBA
+LEC 76	MWF	15:30 - 17:50	TBA	Reda Alhajj
+TUT 1	MW 	08:00 - 09:00
+TUT 2	MW 	08:00 - 09:10
+TUT 3	MW 	08:00 - 09:30
+TUT 4	MW 	08:00 - 09:50
+TUT 5	TR 	08:10 - 09:00
+TUT 6	MW 	08:10 - 09:10
+TUT 7	MW 	08:10 - 09:50
+TUT 8	MW 	08:10 - 09:30
+TUT 9	TR 	08:30 - 09:50
+TUT 10	TR 	08:40 - 09:00
+TUT 11	TR 	08:40 - 09:10
+TUT 12	TR 	08:40 - 09:30
+TUT 13	TR 	08:40 - 09:40
+TUT 75	TBA	RDC	TBA
+

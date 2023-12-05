@@ -1,0 +1,18 @@
+CPSC 217 - Introduction to Computer Science for Multidisciplinary Studies I
+LEC 1	MWF	10:00 - 10:50	Web Based	Jonathan Hudson		
+LEC 2	MWF 	13:00 - 13:50	Web Based	Jonathan Hudson		
+TUT 1	TR 	13:00 - 13:50
+TUT 2	MW 	14:00 - 14:50
+TUT 3	TR 	12:00 - 12:50
+TUT 4	TR 	11:00 - 11:50
+TUT 5	MW 	14:00 - 14:50
+TUT 6	TR 	10:00 - 10:50
+TUT 7	TR 	15:00 - 15:50
+TUT 8	MW 	11:00 - 11:50
+TUT 9	MW 	11:00 - 11:50
+TUT 10	MW 	12:00 - 12:50
+TUT 11	TR 	09:00 - 09:50
+TUT 12	TR 	16:00 - 16:50
+TUT 13	MW 	18:00 - 18:50
+TUT 14	TR 	13:00 - 13:50
+

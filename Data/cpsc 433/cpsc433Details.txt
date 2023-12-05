@@ -1,0 +1,6 @@
+CPSC 433 - Artificial Intelligence
+LEC 1	TR 	12:30 - 13:45	Web Based	Jorg Denzinger	
+TUT 1	MW 	16:00 - 16:50	Web Based	Nathan Douglas		
+TUT 2	MW 	13:00 - 13:50	Web Based	Nathan Douglas		
+TUT 3	MW 	17:00 - 17:50	Web Based	Cooper Davies		
+TUT 4	MW 	18:00 - 18:50	Web Based	Cooper Davies

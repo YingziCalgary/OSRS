@@ -1,0 +1,2 @@
+CPSC 525 - Principles of Computer Security	
+LEC 1	MWF 	14:00 - 14:50	Web Based	Ryan Henry

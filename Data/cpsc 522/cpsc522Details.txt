@@ -1,0 +1,3 @@
+CPSC 522 - Introduction to Randomized Algorithms	
+LEC 1	TBA	TBA	Web Based	Philipp Woelfel		
+TUT 1	TBA	TBA

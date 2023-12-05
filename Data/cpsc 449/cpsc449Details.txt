@@ -1,0 +1,8 @@
+CPSC 449 - Programming Paradigms
+LEC 1	MWF 	13:00 - 13:50	Web Based	Philip Fong		
+TUT 1	MW 	11:00 - 11:50
+TUT 2	TR 	13:00 - 13:50
+TUT 3	TR 	16:00 - 16:50
+TUT 4	MW 	09:00 - 09:50
+TUT 5	MW 	10:00 - 10:50
+

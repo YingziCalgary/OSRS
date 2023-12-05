@@ -1,0 +1,50 @@
+Non-capturing groups are used in regular expressions when you want to group subpatterns for the purpose of applying operations such as quantifiers (e.g., `*`, `+`, `?`), alternation (e.g., `|`), or assertions (e.g., lookahead and lookbehind) without capturing the matched text into a capturing group. Here are some examples of how non-capturing groups are used:
+
+1. **Quantifiers:**
+   Non-capturing groups are helpful when you want to apply a quantifier to a group of characters without capturing them. For example, to match a sequence of digits with optional decimal places:
+   
+   - Capturing group: `(\d+(\.\d+)?)`
+   - Non-capturing group: `(?:\d+(?:\.\d+)?)`
+
+2. **Alternation:**
+   Non-capturing groups are useful when you want to apply alternation (logical OR) to a group of options without capturing the result. For example, to match either "apple" or "banana":
+   
+   - Capturing group: `(apple|banana)`
+   - Non-capturing group: `(?:apple|banana)`
+
+3. **Lookahead and Lookbehind:**
+   Non-capturing groups can be used in lookahead and lookbehind assertions to check for patterns without capturing them. For example, to match "foo" only if it's followed by "bar" without capturing "bar":
+   
+   - Capturing group: `foo(bar)`
+   - Non-capturing group with lookahead: `foo(?=bar)`
+
+4. **Grouping for Clarity:**
+   Sometimes, non-capturing groups are used for clarity in complex regular expressions to group subpatterns and make the expression more readable.
+
+Non-capturing groups are created using `(?: ... )`, where the `?:` indicates that the group is non-capturing. This means that the matched text within the non-capturing group is not remembered or captured, making the regular expression more efficient and focused on the intended matching or evaluation.
+
+/////////////////////////////////////////////////////////////////////////////////////
+In regular expressions, capturing groups are created using parentheses `(` and `)`. Capturing groups are used to capture and remember the text that matches the enclosed subpattern. This captured text can then be accessed or extracted from the matched string.
+
+For example, consider the regular expression `/(\d{2})-(\d{2})-(\d{4})/`. This pattern captures date components (day, month, year) in a date format like "dd-mm-yyyy." The parentheses create three capturing groups, one for each component:
+
+- `(\d{2})` captures the day.
+- `(\d{2})` captures the month.
+- `(\d{4})` captures the year.
+
+When this regular expression is matched against a string, the matched text for each of these capturing groups can be accessed using the capture group index (e.g., `$1`, `$2`, `$3`) or through language-specific functions and methods. The captured values can be used for further processing or transformation.
+
+For example, in JavaScript, you can access the captured groups using the `match` function and the resulting array:
+
+```javascript
+const input = "25-10-2023";
+const pattern = /(\d{2})-(\d{2})-(\d{4})/;
+const result = input.match(pattern);
+
+// result[0] contains the entire matched string
+// result[1] contains "25"
+// result[2] contains "10"
+// result[3] contains "2023"
+```
+
+Capturing groups are a powerful feature of regular expressions, allowing you to extract specific information from complex patterns in text.

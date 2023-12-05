@@ -1,0 +1,31 @@
+If you use `explode(" ", $profName)`, it will split the string stored in `$profName` based on a single space character. Any sequence of more than one space will be treated as a single delimiter. In other words, consecutive spaces will not result in empty array elements; they will simply be treated as one space.
+
+For example, if `$profName` contains the following string:
+
+```
+"Professor    John    Doe"
+```
+
+Using `explode(" ", $profName)` will result in the following array:
+
+```
+["Professor", "", "", "", "John", "", "", "Doe"]
+```
+
+You can see that consecutive spaces have been treated as a single space, and empty array elements are created for the spaces between "Professor" and "John" and between "John" and "Doe."
+
+If you want to split the string based on multiple consecutive spaces and treat each space as a delimiter, you can use a regular expression pattern like this:
+
+```php
+$arr = preg_split('/\s+/', $profName);
+```
+
+This will correctly split the string based on one or more whitespace characters (including spaces, tabs, and newlines) and not create empty array elements for consecutive spaces:
+
+For the string "Professor    John    Doe," the resulting array will be:
+
+```
+["Professor", "John", "Doe"]
+```
+
+Each space, including consecutive spaces, is treated as a delimiter in this case.

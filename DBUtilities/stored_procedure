@@ -1,0 +1,54 @@
+drop PROCEDURE IF EXISTS addNewStudent;
+DELIMITER //
+CREATE DEFINER=`root`@`localhost` PROCEDURE `addNewStudent`(
+    IN lastname VARCHAR(255), IN middlename VARCHAR(255), IN firstname VARCHAR(255), 
+    IN emailaddress VARCHAR(255), IN birthdate DATE, IN phonenumber VARCHAR(255), 
+    IN sex VARCHAR(255), IN street VARCHAR(255), IN city VARCHAR(255), 
+    IN postalcode VARCHAR(255), IN country VARCHAR(255), IN firstyear VARCHAR(255),
+    OUT studentID INT
+)
+MODIFIES SQL DATA
+BEGIN
+   -- Insert the student record into the new_student table
+   INSERT INTO new_student (LastName, MiddleName, FirstName, EmailAddress, BirthDate, PhoneNumber, 
+    Sex, Street, City, PostalCode, Country, FirstYear)
+    VALUES (lastname, middlename, firstname, emailaddress, birthdate, phonenumber, sex, street, city, postalcode, country, firstyear);
+
+   -- Set the OUT parameter to the last auto-generated ID
+   SET studentID = LAST_INSERT_ID();
+END;
+//
+DELIMITER ;
+
+CALL addNewStudent('li','chai', 'yingzi', 'yingzi1.calgary@gmail.com', '1967-09-22', '(403)123-1234', 
+										'F', '94 Arbour Wood Mews', 'Vancouver', 'T3G 4B6', 'Canada', 1, @id);
+       
+select @id;
+
+select * from new_student;
+/////////////////////////////////////////////////////////////////////////////////////////////////
+ In many cases, you don't need to use `store_result` because you only need to access 
+ the result set once. If your application logic involves processing the data in a single pass and you have 
+ no need to revisit the data or perform multiple operations on it, there's no compelling reason to store 
+ the result set in memory. In such cases, you can simply use `fetch` or similar methods to retrieve and 
+ process the rows one by one.
+
+`store_result` is particularly useful when you have scenarios where:
+
+- You need to access the data multiple times, such as looping through it more than once.
+
+- You want to perform different operations on the same data after the initial retrieval.
+
+- You have a need to determine the total number of rows in the result set using `$stmt->num_rows`.
+
+If your application doesn't have these specific requirements, there's no need to use `store_result`, 
+and you can work with the result set using methods like `fetch` in a more memory-efficient way.
+
+$stmt->bind_result($firstName, $lastName); // Bind the results to variables
+
+    if ($stmt->fetch()) {
+        return array(
+            "first_name" => $firstName,
+            "last_name" => $lastName
+        );
+    }

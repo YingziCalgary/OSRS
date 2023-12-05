@@ -1,0 +1,8 @@
+CPSC 329 - Explorations in Information Security and Privac
+LEC 1	MWF 	13:00 - 13:50	Web Based	Ryan Henry		
+TUT 1	MW 	09:00 - 09:50
+TUT 2	MW 	10:00 - 10:50
+TUT 3	MW 	12:00 - 12:50
+TUT 4	TR 	10:00 - 10:50
+TUT 5	TR 	11:00 - 11:50
+

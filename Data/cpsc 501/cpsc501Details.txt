@@ -1,0 +1,8 @@
+CPSC 501 - Advanced Programming Techniques	
+LEC 1	TBA	Jonathan Hudson		
+TUT 1	MW 	15:00 - 15:50
+TUT 2	MW 	16:00 - 16:50
+TUT 3	TR 	10:00 - 10:50
+TUT 4	TR 	17:00 - 17:50
+TUT 5	MW 	09:00 - 09:50
+

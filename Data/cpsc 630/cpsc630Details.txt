@@ -1,0 +1,5 @@
+CPSC 630 - Information Theory and Security	
+LEC 1	TR 	15:30 - 16:45	Web Based	Reyhaneh Safavi-Naeini		
+TUT 1	TR 	17:00 - 17:50
+TUT 2	TR 	11:00 - 11:50
+
